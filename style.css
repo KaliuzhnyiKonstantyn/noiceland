@@ -1,0 +1,29 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1440px;
+    height: 90px;
+    border-bottom: 5px solid red;
+}
+
+.logo {
+    background-image: url(img/logo.svg);
+    margin-left: 120px;
+    width: 135px;
+    height: 17px;
+    background-size: 100%;
+    display: block;
+    background-position: center;
+}
+
+.menu ul {
+    display: flex;
+    margin-right: 140px;
+    gap: 40px;
+}
+
+.menu li {
+    font-size: 14px;
+    color: #000000;
+}
