@@ -46,6 +46,7 @@
     margin-bottom: 18px;
     font-size: 10px;
     letter-spacing: 1px;
+    text-transform: uppercase;
     color: #999999;
 }
 
@@ -76,7 +77,7 @@
 
 .posts {
     display: inline-block;
-    margin: 35px 110px 0;
+    margin: 35px 120px 0;
     width: 1220px;
     height: 963px;
 }
@@ -97,11 +98,96 @@
     height: 254px;
 }
 
-.latest-posts {}
+.post h4 {
+    font-family: 'Libre Franklin';
+    margin-top: 24px;
+    font-size: 10px;
+    line-height: 12px;
+    text-transform: uppercase;
+    color: #999999;
+}
 
-.latest-post {}
+.post p {
+    font-family: 'Tenor Sans';
+    margin-top: 18px;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #000000;
+}
 
-.latest-btn {}
+.bold {
+    font-family: 'Libre Franklin';
+    margin-top: 15px;
+    font-weight: 700;
+    font-size: 10px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+span {
+    display: block;
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.latest-posts {
+    display: inline-block;
+    margin: 0 120px 0;
+}
+
+.latest-posts h2 {
+    font-family: 'Libre Franklin';
+    margin: 90px 0 30px;
+    font-weight: 400;
+    font-size: 10px;
+    text-transform: uppercase;
+
+    color: #999999;
+}
+
+.wrapper-posts {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1200px;
+    height: 878px;
+
+}
+
+.latest-post {
+    flex-basis: 25%;
+    width: 305px;
+    height: 389px;
+}
+
+.latest-post h4 {
+    font-family: 'Libre Franklin';
+    margin-top: 24px;
+    font-size: 10px;
+    line-height: 12px;
+    text-transform: uppercase;
+    color: #999999;
+}
+
+.latest-post p {
+    font-family: 'Tenor Sans';
+    margin-top: 18px;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.latest-btn {
+    font-family: 'Libre Franklin';
+    font-weight: 400;
+    font-size: 10px;
+    text-transform: uppercase;
+    color: #000000;
+    width: 205px;
+    height: 54px;
+    margin: 0 498px 90px;
+    border: 1px solid #000000;
+}
 
 .featured-posts {}
 
