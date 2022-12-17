@@ -141,16 +141,14 @@ span {
     font-weight: 400;
     font-size: 10px;
     text-transform: uppercase;
-
     color: #999999;
 }
 
-.wrapper-posts {
+.wrapper-latest {
     display: flex;
     flex-wrap: wrap;
     width: 1200px;
     height: 878px;
-
 }
 
 .latest-post {
@@ -189,6 +187,26 @@ span {
     border: 1px solid #000000;
 }
 
-.featured-posts {}
+.featured-posts {
+    width: 1200px;
+    height: 1126px;
+}
 
-.featured-post {}
+.featured-posts h2 {
+    font-family: 'Libre Franklin';
+    font-weight: 400;
+    font-size: 10px;
+    text-transform: uppercase;
+    color: #999999;
+}
+
+.wrapper-featured {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.featured-post {
+    flex-basis: 47%;
+    height: 610px;
+    width: 567px;
+}
