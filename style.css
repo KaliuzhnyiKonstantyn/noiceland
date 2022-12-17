@@ -127,6 +127,7 @@
 
 span {
     display: block;
+    width: 1440px;
     border-bottom: 1px solid #E5E5E5;
 }
 
@@ -188,6 +189,7 @@ span {
 }
 
 .featured-posts {
+    margin: 0 120px 0;
     width: 1200px;
     height: 1126px;
 }
@@ -195,6 +197,7 @@ span {
 .featured-posts h2 {
     font-family: 'Libre Franklin';
     font-weight: 400;
+    margin: 90px 0 30px;
     font-size: 10px;
     text-transform: uppercase;
     color: #999999;
@@ -203,10 +206,47 @@ span {
 .wrapper-featured {
     display: flex;
     flex-wrap: wrap;
+    gap: 0 20px;
 }
 
 .featured-post {
     flex-basis: 47%;
     height: 610px;
     width: 567px;
+}
+
+.featured-post h4 {
+    font-family: 'Libre Franklin';
+    font-weight: 400;
+    margin-top: 25px;
+    font-size: 10px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #999999;
+}
+
+.featured-post p {
+    font-family: 'Tenor Sans';
+    font-weight: 400;
+    margin-top: 18px;
+    font-size: 19px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.featured-post h3 {
+    font-family: 'Libre Franklin';
+    font-weight: 700;
+    margin-top: 15px;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.featured-post img {
+    width: 590px;
+    height: 387px;
 }
